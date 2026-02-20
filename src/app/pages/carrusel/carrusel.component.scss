@@ -1,0 +1,157 @@
+.contenedor-carrusel {
+  text-align: center;
+}
+
+.colum-carrusel {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 525px;
+  margin: 0px auto;
+  margin-top: 34px;
+}
+
+.Seccion-galeria {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1em 2.4em;
+}
+
+.contenedor-carrusel {
+  text-align: center;
+}
+
+.colum-carrusel {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 525px;
+  margin: auto;
+}
+.titulos {
+  font-family: "Cormorant", serif;
+  font-size: 30px;
+  color: #000;
+}
+
+.subtitulos {
+  height: 100%;
+  font-family: elegant;
+  font-size: 60px;
+  color: #d5a0a5;
+}
+
+.agregar-btn {
+  background-color: #d5a0a5;
+  text-transform: uppercase;
+  color: white;
+  font-style: italic;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Cormorant", serif;
+}
+
+.ttext1 {
+  font-family: "Cormorant", serif;
+  font-size: 1rem;
+  color: #000;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.ttext1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.galeriaFotosBoda {
+  position: relative;
+  max-width: 100%;
+  max-height: 550px;
+  overflow: hidden;
+}
+
+.galeriaFotosBoda-carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: auto;
+}
+
+.galeriaFotosBoda-slide {
+  min-width: 100%;
+  display: none;
+  text-align: center;
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.galeriaFotosBoda-slide.active {
+  display: block;
+}
+
+.galeriaFotosBoda-slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.galeriaFotosBoda-prev,
+.galeriaFotosBoda-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.galeriaFotosBoda-prev {
+  left: 0;
+}
+.galeriaFotosBoda-next {
+  right: 0;
+}
+
+@media (min-width: 110px) {
+  .galeriaFotosBoda {
+    max-height: 900px;
+  }
+}
+
+@media (max-width: 480px) {
+  .galeriaFotosBoda-prev,
+  .galeriaFotosBoda-next {
+    top: 40%;
+  }
+  .subtitulos {
+    font-size: 55px;
+    line-height: 1.1;
+  }
+  .Seccion-galeria {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0em 1em;
+  }
+  .titulos {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 370px) {
+  .subtitulos {
+    font-size: 4rem;
+  }
+
+  .Seccion-galeria {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0em 0em;
+  }
+}

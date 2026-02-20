@@ -1,0 +1,123 @@
+<div class="contenedor-portada">
+  <div class="portada-container">
+    <div class="contenedor-carousel">
+      <div class="carouselImg">
+        <img src="assets/portadainv.jpg" alt="Imagen 1">
+      </div>
+    </div>
+    <br>
+    <!--
+      <div class="texto-overlay">
+        <p class="tituloportada" data-aos="zoom-in">
+          {{traductorService.getTexto("primerTitulo")}}
+        </p>
+        <p class="nombrePortada" data-aos="zoom-in">
+          {{traductorService.getTexto("tNombres")}}
+        </p>
+      </div>
+    -->
+  </div>
+
+  <div class="contenedor-conteo" >
+    <!--
+      <div class="contenedor-button-idioma">
+        <label class="switch">
+          <input type="checkbox" (change)="cambiarIdioma($event)" [attr.checked]="traductorService.lenguaje === 'ES' ? null : false">
+          <span class="slider"></span>
+        </label>
+        
+        <p class="texto-idioma">
+          {{traductorService.getTexto("traduccion")}}
+        </p>
+      </div>
+    -->
+      <img src="assets/flores (1).png" class="img-1"> 
+    <br>
+    <div class="music-player">
+
+      <audio controls id="audioPlayer">
+          <source src="assets/cancionLM.mp3" type="audio/mp3" ><br>
+          {{traductorService.getTexto("pCancion")}}
+
+        </audio>
+
+        <br><br>
+        <!--
+          <img src="assets/portada2.jpg" alt="Invitación de Boda" class="imagen-portada" />
+          <img src="assets/mona.png" class="img-1" style="width: 100%;">
+        -->
+
+    </div>
+    <br>
+    <p class="tituloportada" [innerHTML]="traductorService.getTexto('primerTitulo')">
+    </p>
+    <p class="nomQ" [innerHTML]="traductorService.getTexto('tNombres')">
+    </p>
+
+    <p class="textosec"
+      [innerHTML]="traductorService.getTexto('mensajeBienvenida1')">
+    </p>
+    <br><br>
+    <p class="tituloportada" [innerHTML]="traductorService.getTexto('nomPadres')"></p>
+
+    <p class="titulop" data-aos="zoom-in">
+      Roberto & Karla<br> Esparza
+    </p>
+    <br><br>
+    <p class="titulopadrinos" data-aos="zoom-in" [innerHTML]="traductorService.getTexto('nomPadrinos')"></p>
+    <p class="nombrePadrinos" data-aos="zoom-in">
+      Juan Manuel & <br>Alejandra Almanza
+    </p>
+    
+    <br><br>
+    <p class="textosec"
+      [innerHTML]="traductorService.getTexto('mensajeBienvenida2')">
+    </p>
+    <br>
+  </div>
+
+  <div class="portada-container">
+    <img class="imgCalendario" data-aos="zoom-in" [src]="traductorService.getImagen('calendario')" >
+  </div>
+
+  <div class="contenedor-conteo">
+    
+
+    <!--
+      -->
+    <br>
+    <br>
+    <br>
+    <p data-aos="zoom-in" class="solofaltan">{{traductorService.getTexto("soloFaltan")}}</p><br>
+    <div class="contador">
+      <div class="tiempo">
+        <div class="cuadro" data-aos="zoom-in">
+          <div class="numero" id="dias">365</div>
+          <div class="etiqueta">{{traductorService.getTexto("counterDias")}}</div>
+        </div>
+      </div>
+      <div class="tiempo">
+        <div class="cuadro" data-aos="zoom-in">
+          <div class="numero" id="horas">12</div>
+          <div class="etiqueta">{{traductorService.getTexto("counterHoras")}}</div>
+        </div>
+      </div>
+      <div class="tiempo">
+        <div class="cuadro" data-aos="zoom-in">
+          <div class="numero" id="minutos">45</div>
+          <div class="etiqueta">{{traductorService.getTexto("counterMinutos")}}</div>
+        </div>
+      </div>
+      <div class="tiempo">
+        <div class="cuadro" data-aos="zoom-in">
+          <div class="numero" id="segundos">30</div>
+          <div class="etiqueta">{{traductorService.getTexto("counterSeg")}}</div>
+        </div>
+      </div>
+    </div>
+
+
+    <br>
+    <br>
+  </div>
+</div>

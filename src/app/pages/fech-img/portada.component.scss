@@ -1,0 +1,306 @@
+@font-face {
+  font-family: elegant;
+  src: url('/assets/Elegant.otf') format('truetype');
+}
+.portada-container {
+  position: relative;
+  width: 100%;
+  height: auto; /* Ajusta la altura según la imagen */
+}
+
+.imagen-portada {
+  width: 100%;
+  height: auto; /* Mantiene la proporción de la imagen */
+  object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+
+.texto-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%); /* Centra el texto */
+  text-align: center; /* Centra el texto dentro del contenedor */
+  color: white; /* Color de texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.86); /* Sombra para mayor visibilidad */
+}
+
+.tituloportada {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.nombrePortada {
+  font-family: elegant ;
+  font-size: 6rem;
+  margin-top: 10px;
+}
+
+.testasinvitado {
+  color: #819AAB;
+  font-size: 25px;
+}
+
+.solofaltan{
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #165c66; /* Cambia el color según el contraste necesario */
+  font-size: 30px;
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+}
+
+.contenedor-portada {
+  position: relative;
+  text-align: center;
+
+  .imagen-portada {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Asegura que la imagen cubra todo el área */
+    max-width: 565px; /* Tamaño máximo para mantenerla más estrecha */
+    margin: 0 auto; /* Centra la imagen */
+  }
+
+  /* Media query para pantallas de tablets */
+  @media (max-width: 768px) {
+    .nombrePortada {
+      margin-top: -32%;
+      font-size: 4rem;
+      width: 100%;
+    }
+
+    .tituloportada {
+      margin-top: -40%;
+      font-size: 30px;
+      width: 100%;
+    }
+
+    .testasinvitado {
+      color: #819AAB;
+      font-size: 20px;
+    }
+
+    .imagen-portada {
+      max-width: 500px; /* Ajusta el ancho máximo en tabletas */
+    }
+  }
+
+  .testasinvitado {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+  }
+
+  .contenedor-conteo {
+    //background-color: #819AAB; // Color de fondo
+    padding: 20px; // Agrega padding
+    display: flex; // Usar flexbox para alinear elementos
+    flex-direction: column; // Dirección de los elementos en columna
+    align-items: center; // Centra los elementos
+    max-width: 525px; // Asegura el mismo ancho que la imagen
+    margin: 0px auto; // Centra horizontalmente y añade margen superior e inferior
+  }
+
+  .titulop{
+    font-family:  elegant ;
+    font-size: 3rem;
+    color: #c7a3aa;
+    margin-right: 5%;
+    margin-right: 5%;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+  }
+
+  .nompadres{
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+
+  }
+  .textosec{
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 0%;
+  }
+
+
+
+  .contenedor-button-idioma {
+    display: flex; /* Asegura que los elementos estén alineados en una fila */
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espaciado entre el botón y el texto */
+    margin-bottom: 20px;
+    justify-content: center; /* Opcional: centra horizontalmente dentro del contenedor */
+  }
+  .texto-idioma{
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    margin: 0%;
+  }
+
+  .music-player {
+    margin-bottom: 20px; // Espacio entre el reproductor y el contador
+  }
+
+  .contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espaciado entre bloques */
+  }
+
+  .tiempo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a7d7d954; /* Cuadro con fondo dorado transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 12px 20px; /* Espaciado dentro del cuadro */
+    width: 100px; /* Ancho fijo para todos los cuadros */
+    height: 120px; /* Alto fijo para que todos tengan el mismo tamaño */
+    text-align: center;
+  }
+
+  .numero {
+    font-size: 2.5rem; /* Tamaño reducido del número */
+    font-family: "Cormorant", serif;
+    color: #165c66; /* Color más fuerte */
+  }
+
+  .etiqueta {
+    font-size: 1.1rem; /* Tamaño de la etiqueta */
+    font-family: "165c66Cormorant", serif;
+    color: #165c66; /* Color más fuerte */
+    margin-top: 5px;
+  }
+
+
+
+  // Responsividad
+  @media (max-width: 768px) {
+    .numero {
+      font-size: 2rem;
+    }
+
+    .etiqueta {
+      font-size: 1rem;
+    }
+
+    .cuadro {
+      width: 90px;
+      height: 110px;
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    .numero {
+      font-size: 1.8rem;
+    }
+
+    .etiqueta {
+      font-size: 0.9rem;
+    }
+
+    .cuadro {
+      width: 80px;
+      height: 100px;
+    }
+    .nombrePortada {
+      margin-top: -10%;
+      font-size: 70px;
+      width: 100%;
+    }
+
+    .tituloportada {
+      margin-top: -5%;
+      font-size: 30px;
+      width: 100%;
+    }
+
+    .testasinvitado {
+      color: #819AAB;
+      font-size: 30px;
+    }
+
+
+  }
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: #efe3cf;
+  border-radius: 50px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  width: 2em;
+  inset: 0;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.switch input:checked + .slider {
+  background: #c7a3aa;
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #c7a3aa;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(1.6em);
+}
+
+
+.textosecf{
+  font-family: elegant ;
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+}

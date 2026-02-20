@@ -1,0 +1,33 @@
+<div class="contenedor-nuest-momen">
+  <div class="colum-nuest-momen">
+    <p class="titulo-momen" data-aos="zoom-in">
+      {{ traductorService.getTexto("tituloMomentos") }}
+    </p>
+
+    <div class="momentos-carousel-wrap">
+      <div class="momentos-carousel-track" #track>
+        <div
+          class="momentos-carousel-slide"
+          *ngFor="let img of carouselImages"
+        >
+          <img [src]="'assets/' + img" [alt]="'Foto ' + img" />
+        </div>
+
+        <div
+          class="momentos-carousel-slide"
+          *ngFor="let img of carouselImages"
+        >
+          <img [src]="'assets/' + img" [alt]="'Foto ' + img" />
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <p class="textosec">
+      {{ traductorService.getTexto("textoMomentos") }}
+    </p>
+
+    <img src="assets/QrLeah.png" width="40%" alt="QR" />
+  </div>
+</div>

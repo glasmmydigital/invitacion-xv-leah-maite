@@ -1,0 +1,62 @@
+<div class="contenedor-cerem-recep" >
+  <div>
+    <img  class="img-2" src="assets/flores (2).png" >
+  </div>
+
+  <div>
+    <img src="assets/flores (1).png" class="img-1">
+  </div>
+
+  <div class="colum-cerm">
+    <br>
+    <img src="assets/tiara.png" class="img-icon" alt="ceremonia">
+    <p class="titulo-cerm-recep" data-aos="zoom-in" [innerHTML]="traductorService.getTexto('tituloCeremonia')">
+    </p>
+    <p class="textosec">
+      <b>Iglesia Catolica de San Pablo </b><br>
+      510 W Roosevelt Ave., Nampa ID 83686 EE. UU.
+    </p>
+    <p class="textosec" >
+      {{traductorService.getTexto("horaCeremonia")}}
+    </p>
+    <a href="https://maps.app.goo.gl/p52yQcu2h5kRNFKBA" data-aos="zoom-in" class="cerm-recep-button" [innerHTML]="traductorService.getTexto('ubicacion')">
+    </a>
+    <br>
+    <br>
+    <p class="titulo-cerm-recep" data-aos="zoom-in" [innerHTML]="traductorService.getTexto('tituloRecepcion')">
+    </p>
+    <p class="textosec">
+      <b>Marist Hall </b><br>
+      500 W Roosevelt Ave, Nampa, ID 83686, EE. UU.
+    </p>
+    <p class="textosec" [innerHTML]="traductorService.getTexto('textoInv')">
+    </p>
+    <p class="textosec">
+      {{traductorService.getTexto("horaRecepcion")}}
+    </p>
+    <a href="https://maps.app.goo.gl/gnEYTS1sWsieACLu7"
+    data-aos="zoom-in" class="cerm-recep-button" [innerHTML]="traductorService.getTexto('ubicacion')">
+    </a>
+  </div>
+  <br>
+  <!--
+  <br>
+  <div class="colum-recep">
+    <img src="assets/recepcion.png" class="img-icon-recepcion" alt="recepcion">
+    <p class="titulo-cerm-recep">
+      Recepción
+    </p>
+    <p class="textosec">
+      Old town Avondale reception Hall
+      <br>16 E Western Ave Avondale Az 85323
+
+    </p>
+    <p class="textosec">
+      Hora 5:30 P.M.
+    </p>
+    <a href="https://maps.app.goo.gl/koVSE1hiQTBzZfj27" class="cerm-recep-button">
+      VER UBICACIÓN
+    </a>
+  </div>
+  -->
+</div>

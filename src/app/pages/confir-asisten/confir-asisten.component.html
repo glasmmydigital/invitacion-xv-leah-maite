@@ -1,0 +1,21 @@
+<div class="contenedor-confir-asistencia">
+  <div class="colum-confir-asistencia">
+    <img src="assets/icon-invit.png" alt="invitación" class="img-icon">
+    <br>
+    <p class="titulo-confir-aistencia" data-aos="zoom-in" [innerHTML]="traductorService.getTexto('tituloConfirmacion')">
+
+    </p>
+    <div class="contenedor-texto">
+      <P class="textosec">
+        {{traductorService.getTexto("textoConfirmacionUno")}}
+      </P>
+      <p class="textosec">
+        {{traductorService.getTexto("textoConfirmacionDos")}}
+      </p>
+    </div>
+    <a href="https://wa.me/14693602505?text=Hola,%20gracias%20por%20la%20invitaci%C3%B3n%20a%20tu%20fiesta.%20Me%20alegra%20poder%20acompa%C3%B1arte%20en%20este%20d%C3%ADa%20especial.%20Confirmo%C2%A0mi%C2%A0asistencia."
+      class="confir-asisten-button" >
+      {{traductorService.getTexto("buttonForms")}}
+    </a>
+  </div>
+</div>
