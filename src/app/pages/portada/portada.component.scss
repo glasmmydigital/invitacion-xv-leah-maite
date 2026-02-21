@@ -3,6 +3,11 @@
   src: url('/assets/Elegant.otf') format('truetype');
 }
 
+@font-face {
+  font-family: nathalia;
+  src: url('/assets/Nathalia.ttf') format('truetype');
+}
+
 .portada-container {
   position: relative;
   width: 100%;
@@ -193,7 +198,7 @@
   }
 
   .nomQ {
-    font-family: elegant;
+    font-family: "nathalia";
     font-size: 85px;
     color: #bda672;
     margin-right: 5%;
@@ -203,7 +208,7 @@
   }
 
   .titulop {
-    font-family: elegant;
+    font-family: "nathalia";
     font-size: 3rem;
     color: #bda672;
     margin-right: 5%;
@@ -213,7 +218,7 @@
   }
 
   .nombrePadrinos {
-    font-family: elegant;
+    font-family: "nathalia";
     font-size: 2.5rem;
     color: #bda672;
     margin-right: 5%;

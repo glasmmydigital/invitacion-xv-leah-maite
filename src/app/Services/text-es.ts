@@ -1,14 +1,14 @@
 export const TEXT_ES:{[key: string]: string } = {
-  primerTitulo: 'Mis XV años',
+  primerTitulo: 'Mis XV Años',
   tNombres: 'Leah <br>Maite',
   traduccion: 'See invitation in English',
   pCancion: 'Tu navegador no soporta el elemento de audio.',
   subTitulo: 'Estás Invitado',
   mensajeBienvenida1: 'Por fin se llegó este día mágico donde seré la protagonista de esta celebración. ',
-  mensajeBienvenida2: ' Tiene el honor de invitarle a festejar mis XV años el día: ',
+  mensajeBienvenida2: ' Tienen el honor de invitarle a festejar mis XV años el día: ',
   mensajeBienvenida3: 'Los invita cordialmente a disfrutar <br>este día tan mágico conmigo',
   soloFaltan: 'Sólo faltan:',
-  counterDias: 'Dias',
+  counterDias: 'Días',
   counterHoras: 'Horas',
   counterMinutos: 'Minutos',
   counterSeg: 'Segundos',
@@ -18,7 +18,7 @@ export const TEXT_ES:{[key: string]: string } = {
   subTituloInicialPadres: 'y nuestros padres',
   nomPadres: 'Mis Padres',
   textPadres: 'Gracias a la bendición de Dios y a todo el amor que me han dado mis padres, he llegado al momento en que dejaré mi infancia y comenzaré este nuevo capítulo de mi vida.',
-  nomPadrinos: 'Mis padrinos',
+  nomPadrinos: 'Mis Padrinos',
   textChambelan: 'Chambelán',
   // FECHA Y BODA
   textFechaBoda: 'La celebración será el sábado:',
@@ -30,7 +30,7 @@ export const TEXT_ES:{[key: string]: string } = {
   // CEREMONIA Y RECEPCIÓN
   tituloCeremonia: 'Ceremonia',
   direccionCeremonia: '<b>Mission San Fernando Rey de España</b><br>15151 San Fernando Mission Blvd, Mission Hills, CA 91345, Estados Unidos',
-  horaCeremonia: 'Hora: 1:00 P.M. ',
+  horaCeremonia: 'Hora: 1:30 P.M. ',
   ubicacion: 'VER UBICACIÓN',
   tituloRecepcion: 'Recepción',
   textoInv: 'Valet Parking de cortesía',
@@ -44,7 +44,7 @@ export const TEXT_ES:{[key: string]: string } = {
   textoVestimentaUno: 'Estilo Formal ',
   textoVestimentaDos: 'Les agradeceremos vestir de manera formal, recordándoles que el color azul marino está reservado únicamente para la quinceañera. ¡Gracias por su comprensión y cariño!',
   // NUESTROS MOMENTOS
-  tituloMomentos: 'Galería de fotos',
+  tituloMomentos: 'Galería de Fotos',
   textoMomentos: 'Ayuda a que crezcan los recuerdos de este día tan especial. Escanea el código QR para compartir tus momentos y ser parte de esta hermosa celebración.',
   buttonMomentos: '¡SUBIR FOTOS!',
   // REGALOS

@@ -15,7 +15,7 @@
 
       <label *ngIf="!isFechaLimitePasada()">
           <input class="input-limite" type="radio" [checked]="!isFechaLimitePasada()" [disabled]="isFechaLimitePasada()" >
-        <div class="conten-inf" style="width: 100%;">
+        <div class="conten-inf" >
           <br>
           <p  *ngIf="!!invitacionConfimacion?.nombre" class="text-title" id="label-nombre-invitado" >
             {{ confirmContainer['label-nombre-invitado'] || '' }}
@@ -32,7 +32,7 @@
             id="fecha-evento">
             {{ confirmContainer['fecha-evento'] || traductorService.getTexto('mensajeBienvenidaConfirm') }}
             <span id="fecha-invitacion">
-                {{ invitacionConfimacion.fecha_limite_confirmo | date:"dd/MM/yyyy" }}
+                {{ invitacionConfimacion.fecha_limite_confirmo | date:"MM/dd/yyyy" }}
             </span>
           </p>
 
