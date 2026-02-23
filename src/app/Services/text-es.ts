@@ -38,7 +38,7 @@ export const TEXT_ES:{[key: string]: string } = {
   horaRecepcion: 'Hora: 4:00 P.M.',
   //ITINERARIO
   titleTimeline: 'Itinerario',
-  timelinejpg: 'assets/timeliner (2).png',
+  timelinejpg: 'assets/timeliner (2).jpg',
   // VESTIMENTA O DRESS CODE
   tituloVestimenta: 'Vestimenta',
   textoVestimentaUno: 'Estilo Formal ',
