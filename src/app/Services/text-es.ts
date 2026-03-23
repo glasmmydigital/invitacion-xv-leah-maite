@@ -89,7 +89,7 @@ export const TEXT_ES:{[key: string]: string } = {
   invitadoConfirmacion: 'Invitado',
   asistentesAgregados: 'Acompañantes agregados:',
   teEsperamos: '¡Te esperamos!',
-  asistiras: '¿Podrás asistir?',
+  asistiras: '¿Podrás Asistir?',
   siAsistire: 'Sí asistiré',
   noAsistira: 'No podré asistir',
   estasSeguro: '¿Estas seguro?',
@@ -105,7 +105,7 @@ export const TEXT_ES:{[key: string]: string } = {
   txtsiagregare: 'Si agregaré',
   txtdetalleconf: 'Por favor, asegúrate de escribir tu nombre y, si aplica, el de tus acompañantes.',
   // DESPEDIDA
-  tituloDespedida: 'Esperamos Verte!',
+  tituloDespedida: '¡Esperamos Verte!',
   DespedidaNombres: 'Valeria y Josué',
   // GLASMMY
   textoGlasmmy: 'Creado con amor por',
