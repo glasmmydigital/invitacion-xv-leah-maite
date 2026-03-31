@@ -95,7 +95,7 @@ export const TEXT_ES:{[key: string]: string } = {
   estasSeguro: '¿Estas seguro?',
   fechaConfirmacionCaducada:
     '¡Ya paso la fecha limite para confirmar tu sistencia!',
-  fechaConfirmacionCaducadaDos: 'Si gustas puedes comunicarte con los novios.',
+  fechaConfirmacionCaducadaDos: 'Si gustas, puedes comunicarte con nosotros.',
   //VENTANA EMERGENTE CONFIRMACION
   confirmAsistenciatitle: '¿Confirmas esta asistencia?',
   opcancelar: 'Cancelar',
